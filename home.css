@@ -218,3 +218,115 @@ h1{
     justify-content: center;
     text-align: center;
  }
+ /* Responsive Design */
+
+/* Large Tablets & Laptops (Max Width: 1024px) */
+@media (max-width: 1024px) {
+    .pose, .pose2, .pose3 {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .footer-container {
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .footer-section {
+        min-width: 300px;
+    }
+}
+
+/* Tablets & Smaller Screens (Max Width: 768px) */
+@media (max-width: 768px) {
+    /* Navbar */
+    .navbar .cont {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar .nav-links {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+
+    /* Image Sections */
+    .pose, .pose2, .pose3 {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+    }
+
+    .p1, .p2, .p3, .p4, .p5, .p6, .p7, .p8, .p9 {
+        width: 90%;
+        height: auto;
+        max-width: 300px;
+    }
+
+    /* Footer */
+    .footer-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-section {
+        text-align: center;
+    }
+
+    .social-icons {
+        justify-content: center;
+    }
+}
+
+/* Mobile Devices (Max Width: 480px) */
+@media (max-width: 480px) {
+    /* Header */
+    h1 {
+        font-size: 1.5em;
+        text-align: center;
+    }
+
+    .vc h1 {
+        font-size: 1.2em;
+    }
+
+    .pp p {
+        font-size: 0.9em;
+        padding: 0 15px;
+    }
+
+    /* Navbar */
+    .navbar .cont {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .navbar .nav-links {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    /* Image Containers */
+    .image-container {
+        width: 100%;
+    }
+
+    .image-text {
+        font-size: 14px;
+    }
+
+    /* Footer */
+    .footer-section {
+        width: 100%;
+        text-align: center;
+        margin: 10px 0;
+    }
+
+    .social-icons {
+        justify-content: center;
+    }
+}
