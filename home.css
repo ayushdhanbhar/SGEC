@@ -1,0 +1,220 @@
+*{
+    margin:0px;
+    padding: 0px;
+  }
+  /*header*/
+  .navbar {
+      background-color: rgb(47, 45, 45);
+      color: white;
+      padding: 1em 0;
+      position: fixed;
+      width: 100%;
+      top: 0;
+      left: 0;
+      z-index: 1000;
+      height:45px;
+    }
+    .navbar .cont {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      max-width: 1200px;
+      margin: auto;
+      padding: 0 1.2em;
+    }
+    
+    .navbar .logo a {
+      color: rgb(255, 255, 255);
+      text-decoration: none;
+      font-size: 1.5em;
+      font-weight: bold;
+    
+    }
+    
+    .navbar .nav-links {
+      list-style: none;
+      display: flex;
+      gap: 1.5em;
+    }
+    
+    .navbar .nav-links li a {
+      color: white;
+      text-decoration: none;
+      padding: 0.5em 1em;
+      border-radius: 3px;
+      font-family:cursive;
+      font-size: 1em;
+    }
+/*     
+    .navbar .nav-links li a:hover {
+      background-color: #4caf50;
+    } */
+
+    footer {
+        margin-top:250px;
+        background-color: #222;
+        color: white;
+        padding: 40px 20px;
+        text-align: center;
+    }
+
+    .footer-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        max-width: 1200px;
+        margin: auto;
+    }
+
+    .footer-section {
+        flex: 1;
+        min-width: 250px;
+        margin: 10px;
+    }
+
+    .footer-section h2 {
+        font-size: 1.5em;
+        margin-bottom: 15px;
+    }
+
+    .footer-section p, .footer-section ul {
+        font-size: 1em;
+        line-height: 1.5;
+        color: #ccc;
+    }
+
+    .footer-section ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    .footer-section ul li {
+        margin: 8px 0;
+    }
+
+    .footer-section ul li a {
+        color: #ccc;
+        text-decoration: none;
+        transition: color 0.3s ease;
+    }
+
+    .footer-section ul li a:hover {
+        color: #007bff;
+    }
+
+    .social-icons {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+        margin-top: 10px;
+    }
+
+    .social-icons img {
+        width: 30px;
+        height: 30px;
+        transition: transform 0.3s ease;
+    }
+
+    .social-icons img:hover {
+        transform: scale(1.2);
+    }
+
+    .footer-bottom {
+        margin-top: 20px;
+        font-size: 0.9em;
+        color: #bbb;
+    }
+
+    @media (max-width: 768px) {
+        .footer-container {
+            flex-direction: column;
+            text-align: center;
+        }
+    }
+    .pose{
+        margin-top:250px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .pose2{
+        margin-top:100px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .pose3{
+        margin-top:100px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+.p1{
+    background-image: url("p1.jpg");
+    background-size: cover;
+    height:300px;
+    width: 300px;
+}
+.p2{
+    background-image: url("p2.png");
+    background-size: cover;
+    height:300px;
+    width: 300px;
+}
+.p3{
+    background-image: url("p3.webp");
+    background-size: cover;
+    height:300px;
+    width: 300px;
+}
+.p4{
+    background-image: url("p4.png");
+    background-size: cover;
+    height:300px;
+    width: 300px;
+}
+.p5{
+    background-image: url("p5.png");
+    background-size: cover;
+    height:300px;
+    width: 300px;
+}
+.p6{
+    background-image: url("p6.png");
+    background-size: cover;
+    height:300px;
+    width: 300px;
+}
+.p7{
+    background-image: url("p7.png");
+    background-size: cover;
+    height:300px;
+    width: 300px;
+}
+.p8{
+    background-image: url("p8.jpg");
+    background-size: cover;
+    height:300px;
+    width: 300px;
+}
+.p9{
+    background-image: url("p9.png");
+    background-size: cover;
+    height:300px;
+    width: 300px;
+}
+h1{
+    margin-top:80px;
+    display: flex;
+    justify-content: center;
+    color:rgb(5, 5, 5);
+}
+.vc{
+    display:flex;
+    justify-content:center;
+}
+/* p{
+    margin-top:50px;
+} */
+ .pp{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+ }
